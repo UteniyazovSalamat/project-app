@@ -11,6 +11,8 @@ const App = () => {
 
    const bool = true;
 
+    console.log('test');
+
     return (
         <div className={classNames('app', {}, [theme])}>
             <button onClick={toggleTheme}>TOGGLE</button>
